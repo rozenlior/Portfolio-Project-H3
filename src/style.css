@@ -1,0 +1,20 @@
+.home-headings, .about-headings {
+  margin-top: 80px;
+}
+
+h1{
+  font-size: 90px;
+}
+
+h2{
+  font-size: 42px;
+}
+
+h3{
+  font-size: 24px;
+  color:grey;
+}
+
+.about-paragraph{
+  font-size: 18px;
+}
