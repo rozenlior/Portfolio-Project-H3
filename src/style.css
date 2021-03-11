@@ -1,20 +1,87 @@
-.home-headings, .about-headings {
+body {
+  margin: 50px auto;
+}
+
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-headings,
+.about-headings {
   margin-top: 80px;
 }
 
-h1{
+h1 {
   font-size: 90px;
 }
 
-h2{
+h2 {
   font-size: 42px;
 }
 
-h3{
+h3 {
   font-size: 24px;
-  color:grey;
+  color: grey;
 }
 
-.about-paragraph{
+.about-paragraph {
   font-size: 18px;
+}
+.links {
+  margin: 30px;
+}
+
+.nav-link-about {
+  color: var(--primary-color);
+  border: 1px solid #6c63ff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-link-contact {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid #6c63ff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px;
+}
+.links a{
+  margin: 20px;
+}
+
+.home-paragraphs {
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  .home-image {
+    display: none;
+  }
+  .home-h2,
+  .home-paragraphs {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
 }
